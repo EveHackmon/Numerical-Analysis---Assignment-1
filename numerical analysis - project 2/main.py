@@ -1,3 +1,10 @@
+# Eve Hackmon , 209295914
+# Daniel Houri , 209445071
+# Yakov Shtefan , 208060111
+# Vladislav Rabinovich , 323602383
+# Aaron Hajaj , 311338198
+# git : https://github.com/EveHackmon/Numerical-Analysis_--Assignments.git
+
 import numpy as np
 from numpy.linalg import norm
 
@@ -162,7 +169,7 @@ if __name__ == '__main__':
     n = len(mat)
     b = np.array([4, -1, -3])
     x = np.zeros_like(b, dtype=np.double)
-    print("Git: ")
+    print("Git: https://github.com/EveHackmon/Numerical-Analysis_--Assignments.git")
     solution1 = get_jacobi_solution(mat, b, n, x)
     print(solution1, "\n")
     solution2 = get_gauss_seidel_solution(mat, b, n, x)
